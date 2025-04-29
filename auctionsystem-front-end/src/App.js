@@ -13,7 +13,7 @@ import OrderDetail from './components/OrderDetails';
 import Login from './components/Login';
 import Register from './components/Register';
 import Profile from './components/Profile';
-import { AuthProvider } from './context/AuthContext';
+import AuthProvider from './context/AuthContext';
 import { CartProvider } from './context/CartContext';
 import ProtectedRoute from './components/common/ProtectedRoute';
 

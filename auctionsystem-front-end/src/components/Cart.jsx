@@ -2,7 +2,7 @@
 import React,{ useContext, useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { CartContext } from '../context/CartContext';
-import { AuthContext } from '../context/AuthContext';
+import AuthContext from '../context/AuthContext';
 import api from '../services/api';
 import { Trash2, Plus, Minus } from 'lucide-react';
 
