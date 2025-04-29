@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
-import { useAuth } from '../context/AuthContext';
+import useAuth from '../context/AuthContext';
 
 const Profile = () => {
   const { user, updateUserData, logout } = useAuth();
